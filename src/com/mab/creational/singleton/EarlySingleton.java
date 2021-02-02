@@ -6,7 +6,7 @@ public class EarlySingleton {
 
     private EarlySingleton(){}
 
-    public static EarlySingleton getA(){
+    public static EarlySingleton getEarlySingleton(){
         return obj;
     }
 }
